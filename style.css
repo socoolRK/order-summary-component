@@ -1,0 +1,161 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    height: 150vh;
+    
+}
+
+.summaryContainer{
+    width: 550px;
+    height: 730px;
+    margin-top: 400px;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 1.8rem;
+}
+
+h3, p{
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 1px 0px 0px 1px;
+}
+
+.hero{
+    width: 550px;
+    border-top-left-radius:1.8rem;
+    border-top-right-radius:1.8rem;   
+}
+
+.annualBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1rem;
+    width: 440px;
+    height: 110px;
+    
+}
+
+.image img{
+    margin: 13px 25px 0px 0px;
+
+}
+
+h2{
+    color:hsl(223, 47%, 23%) ;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+p{
+    color:hsl(224 45% 35%) ;
+    font-size: 21px;
+    font-weight: 500;
+  }
+
+  .changeBox{
+      color:hsl(245, 75%, 52%);
+      font-size: 17px;
+      font-weight: 700;
+  }
+
+  .changeBox:hover{
+      color: hsl(223, 47%, 23%);
+  }
+
+
+
+.btn1{
+    position: relative;
+    margin-top: 30px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 440px;
+    height: 75px;
+    border-radius: 18px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn1 h4{
+    position: relative;
+    margin-top: 22px;
+    
+}
+
+.btn1:hover{
+    background-color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+.cancel{
+    position: relative;
+    margin-top: 45px;
+    font-size: 20px;
+    color:  hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+.summaryPara{
+    margin-left: 60px;
+    margin-right: 70px;
+}
+
+.planInfo h3{
+    position: relative;
+    padding-top: 20px;
+    padding-right: 80px;
+    color: hsl(223, 47%, 23%);
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+
+.img #icon{
+    position: relative;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.planInfo p{
+    position: relative;
+    padding-right: 5rem;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;   
+}
+
+.attribution{
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+}
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+    
