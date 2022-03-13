@@ -60,7 +60,7 @@ h2{
 }
 
 p{
-    color:hsl(224 45% 35%) ;
+    color:hsl(224, 23%, 55%);
     font-size: 21px;
     font-weight: 500;
   }
