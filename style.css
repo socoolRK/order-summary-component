@@ -1,20 +1,24 @@
-
-.container{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Red Hat Display', sans-serif;
     background-color: hsl(225, 100%, 94%);
-    height: 150vh;
-    
+    min-height: 100vh;
+
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+
+}
 .summaryContainer{
-    width: 550px;
-    height: 730px;
-    margin-top: 400px;
-    margin: 0 auto;
-    padding: 0 auto;
+    position: absolute;
+    width: 450px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,11 +30,11 @@
 
 h3, p{
     font-family: 'Red Hat Display', sans-serif;
-    margin: 1px 0px 0px 1px;
+    margin: 10px 5px 1px
 }
 
 .hero{
-    width: 550px;
+    width: 450px;
     border-top-left-radius:1.8rem;
     border-top-right-radius:1.8rem;   
 }
@@ -43,26 +47,28 @@ h3, p{
     margin-top: 15px;
     background-color: hsl(225, 100%, 98%);
     border-radius: 1rem;
-    width: 440px;
+    width: 380px;
     height: 110px;
     
 }
 
 .image img{
-    margin: 13px 25px 0px 0px;
+    position: relative;
+    margin: 20px 10px 10px 20px;
 
 }
 
 h2{
     color:hsl(223, 47%, 23%);
     margin-top: 60px;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 900;
 }
 
 p{
+    position: relative;
     color:hsl(224, 23%, 55%);
-    font-size: 21px;
+    margin-top: 10px;
     font-weight: 500;
   }
 
@@ -74,6 +80,7 @@ p{
 
   .changeBox:hover{
       color: hsl(223, 47%, 23%);
+      transition: 1s ease-in-out;
   }
 
 
@@ -81,11 +88,11 @@ p{
 .btn1{
     position: relative;
     margin-top: 30px;
+    padding: 10px 10px;
     background-color: hsl(245, 75%, 52%);
     color: white;
-    width: 440px;
-    height: 75px;
-    border-radius: 18px;
+    width: 380px;
+    border-radius: 10px;
     border-style: none;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 20px;
@@ -93,15 +100,11 @@ p{
     text-align: center;
 }
 
-.btn1 h4{
-    position: relative;
-    margin-top: 22px;
-    
-}
 
 .btn1:hover{
     background-color: hsl(223, 47%, 23%);
     cursor: pointer;
+    transition: 1s ease-in-out;
 }
 
 .cancel{
@@ -114,6 +117,7 @@ p{
 .cancel:hover{
     color: hsl(223, 47%, 23%);
     cursor: pointer;
+    transition: 1s ease-in-out;
 }
 
 .summaryPara{
@@ -123,11 +127,11 @@ p{
 
 .planInfo h3{
     position: relative;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-right: 80px;
     color: hsl(223, 47%, 23%);
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 700;
     
 }
 
@@ -141,18 +145,18 @@ p{
 .planInfo p{
     position: relative;
     padding-right: 5rem;
-    padding-bottom: 15px;
+    padding-bottom: 2rem;
     font-size: 20px;
     font-weight: 500;   
 }
 
 .attribution{
     position: relative;
-    margin-top: 100px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
 }
   .attribution a {
